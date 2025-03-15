@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoteKeeper 13-HS</title>
+
+    <!-- Boxicon Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Lİnk -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Wrapper -->
+    <div class="wrapper">
+      <!-- Add Box -->
+      <li class="add-box">
+        <div class="icon">
+          <i class="bx bx-plus"></i>
+        </div>
+        <p>Add New Note!</p>
+      </li>
+      <!-- <li class="note">
+        
+        <div class="details">
+         
+          <p class="title">title</p>
+          <p class="description">description</p>
+        </div>
+        
+        <div class="bottom">
+          <span>March 13,2025</span>
+          <div class="settings">
+           
+            <i class="bx bx-dots-horizontal-rounded"></i>
+            
+            <ul class="menu">
+              <li><i class="bx bx-edit"></i>Edit</li>
+              <li><i class="bx bx-trash"></i>Delete</li>
+            </ul>
+          </div>
+        </div>
+      </li> -->
+    </div>
+
+    <!-- Pop Up -->
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <!-- Header -->
+          <header>
+            <p>New Note</p>
+            <i id="close-btn" class="bx bx-x-circle"></i>
+          </header>
+          <!-- Form -->
+          <form>
+            <!-- title -->
+            <div class="row title">
+              <label>Title</label>
+              <input type="text" />
+            </div>
+
+            <div class="row description">
+              <label>Description</label>
+              <textarea></textarea>
+            </div>
+
+            <button type="submit" id="submit-btn">Add Note</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- js bağlantı -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
