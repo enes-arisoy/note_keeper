@@ -10,6 +10,21 @@
     outline: none;
     list-style: none;
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #52ACFF;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
 .note .details::-webkit-scrollbar {
     width: 6px;
 }
@@ -26,7 +41,7 @@
 body {
     font-family: "Poppins", sans-serif;
     background-color: #52ACFF;
-    background-image: linear-gradient(135deg, #52ACFF 25%, #FFE32C 100%);
+    background-image: linear-gradient(135deg, #52ACFF 25%, #face2b 100%);
     min-height: 100vh;
 }
 
@@ -79,7 +94,7 @@ header {
 }
 
 .add-box p {
-    color:#52ACFF;
+    color: #52ACFF;
     margin-top: 20px;
     font-weight: 500;
 }
@@ -256,6 +271,7 @@ header {
     margin-bottom: 20px;
     cursor: pointer;
 }
+
 .popup .content form #submit-btn:hover {
     background-color: rgba(89, 66, 237, 0.868);
     transition: 0.3s;
