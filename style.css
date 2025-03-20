@@ -58,7 +58,7 @@ header {
 .wrapper {
     margin: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     gap: 25px;
 }
 
@@ -72,7 +72,6 @@ header {
 
 .wrapper li:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
 }
 
@@ -279,6 +278,7 @@ header {
 
 @media (max-width: 768px) {
     .wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         margin: 20px;
     }
 }
